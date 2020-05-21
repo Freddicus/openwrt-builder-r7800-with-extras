@@ -17,7 +17,7 @@ RUN echo "tzdata tzdata/Areas select US" > /tmp/preseed.txt; \
     apt-get update && \
     apt-get install -y tzdata
 
-RUN apt-get install -y subversion g++ zlib1g-dev build-essential git python python3 python3-distutils libncurses5-dev gawk gettext unzip file libssl-dev wget libelf-dev ecj fastjar java-propose-classpath
+RUN apt-get install -y subversion g++ zlib1g-dev build-essential git python python3 python3-distutils libncurses5-dev gawk gettext unzip file libssl-dev wget libelf-dev ecj fastjar java-propose-classpath rsync
 
 RUN umask 0022
 
