@@ -18,7 +18,13 @@ The following changes have been made from the default:
   * avahi-utils
   * netatalk
 
-***Don't forget to `docker cp` your builds when you're done!***
+## Finishing up
+
+Don't forget to retrieve your builds when the build is done or they will be lost. Use `docker ps` to discover the docker container hash. Then use `docker cp` to copy the builds locally.
+
+Example:
+
+```docker cp -a <docker_container_hash>:/openwrt/bin ./bin/```
 
 ## References
 
