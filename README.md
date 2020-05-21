@@ -18,6 +18,26 @@ The following changes have been made from the default:
   * avahi-utils
   * netatalk
 
+## Docker Run
+
+To build the container run the following command:
+
+```docker build -t openwrt/builder-r7800-us-ny:latest --no-cache .```
+
+To run the container:
+
+```docker run -it openwrt/builder-r7800-us-ny:latest```
+
+## Building
+
+Run `make menuconfig` to run further configuration.
+
+Run `make` to build image.
+
+Run `make -j5 download world` to run make with five jobs / threads.
+
+Run `make -j1 V=sc` if you run into problems.
+
 ## Finishing up
 
 Don't forget to retrieve your builds when the build is done or they will be lost. Use `docker ps` to discover the docker container hash. Then use `docker cp` to copy the builds locally.
