@@ -51,6 +51,7 @@ Example:
 Building
 
 * [Quick Build](https://openwrt.org/docs/guide-developer/quickstart-build-images)
+* [Using the build system](https://openwrt.org/docs/guide-developer/build-system/use-buildsystem)
 
 Packages
 
