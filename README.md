@@ -34,7 +34,7 @@ Run `make menuconfig` to run further configuration.
 
 Run `make` to build image.
 
-Run `make -j5 download world` to run make with five jobs / threads.
+Run `make -j5 download world` to run make with five jobs / threads (if you have 4 cores, for example).
 
 Run `make -j1 V=sc` if you run into problems.
 
@@ -46,7 +46,7 @@ Example:
 
 ```docker cp -a <docker_container_hash>:/openwrt/bin ./bin/```
 
-### References
+## References
 
 Building
 
