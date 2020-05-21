@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag freddicus/openwrt-r7800-us-ny:latest --output out
+      run: docker build . --file Dockerfile --tag freddicus/openwrt-r7800-us-ny:latest
