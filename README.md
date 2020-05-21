@@ -18,7 +18,7 @@ The following changes have been made from the default:
   * avahi-utils
   * netatalk
 
-## Docker Run
+## Build Docker Container & Run
 
 To build the container run the following command:
 
@@ -28,7 +28,7 @@ To run the container:
 
 ```docker run -it openwrt/builder-r7800-us-ny:latest```
 
-## Building
+## Building OpenWRT
 
 Run `make menuconfig` to run further configuration.
 
@@ -46,7 +46,7 @@ Example:
 
 ```docker cp -a <docker_container_hash>:/openwrt/bin ./bin/```
 
-## References
+### References
 
 Building
 
