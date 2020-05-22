@@ -34,9 +34,9 @@ To run the container:
 
 Run `make menuconfig` to run further configuration.
 
-Run `make` to build image.
+Run `make` to build image or...
 
-Run `make -j5 download world` to run make with five jobs / threads (if you have 4 cores, for example).
+Run `make -j5 download world` to run make with five jobs / threads (if you have 4 cores, for example) or...
 
 Run `make -j1 V=sc` if you run into problems.
 
