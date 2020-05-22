@@ -19,7 +19,7 @@ The following changes have been made from the default:
   * avahi-utils
   * netatalk
   
-*If you want to start from scratch comment out the line in `Dockerfile` that copies the `config.props` into the container. You will also need to update the timezone settings.*
+*If you want to start from scratch comment out the line in `Dockerfile` that copies the `config.properties` into the container. You will also need to update the timezone settings.*
 
 ## Build Docker Container & Run
 
