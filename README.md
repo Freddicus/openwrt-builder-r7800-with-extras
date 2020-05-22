@@ -7,6 +7,7 @@ The following changes have been made from the default:
 * LuCi with material theme
   * luci
   * luci-theme-material
+  * luci-app-uhttpd
   * luci-app-upnp
 * USB drive support
   * kmod-usb-storage
