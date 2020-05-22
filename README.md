@@ -17,6 +17,8 @@ The following changes have been made from the default:
 * Time Machine support
   * avahi-utils
   * netatalk
+  
+*If you want to start from scratch comment out the line in `Dockerfile` that copies the `config.props` into the container. You will also need to update the timezone settings.*
 
 ## Build Docker Container & Run
 
